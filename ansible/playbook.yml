@@ -1,0 +1,14 @@
+---
+- hosts: all
+  become: yes
+  gather_facts: yes
+  tasks:
+    - name: Testing connection to localhost 
+      ping:
+    - name: install packages
+      apt: name={{ item }} update_cache=yes state=latest
+      with_items:
+        - curl
+        - vim
+        - git
+
