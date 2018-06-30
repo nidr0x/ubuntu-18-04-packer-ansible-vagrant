@@ -5,7 +5,7 @@ Packer configuration thats build an Ubuntu 18.04 Vagrant box image and provision
 
 ## Requirements
 
-You will need the following software is installed on your local machine:
+You will need the following software installed on your local machine:
 
 * [Packer](http://www.packer.io/)
 * [Virtualbox](https://www.virtualbox.org/)
